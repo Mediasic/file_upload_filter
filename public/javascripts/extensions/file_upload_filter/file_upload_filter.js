@@ -16,7 +16,7 @@ function file_upload_filter_input_method(index, filter)
       {
          var out = "<div class=\"file_upload_filter\" id=\"file_upload_filter_" + index + "\">"
           + "  <div class=\"file_upload_filter_file_link\">"
-          + "    <a " + (has_file ? "href=\"" + file_url + "\"" : "style=\"display: none;\"") + " id=\"file_upload_filter_" + index + "_file\"/>View File</a>"
+          + "    <a " + (has_file ? "href=\"" + file_url + "\"" : "style=\"display: none;\"") + " id=\"file_upload_filter_" + index + "_file\" target=\"_blank\">View File</a>"
           + "  </div>"
           + "  <div class=\"file_upload_filter_options\">"
           + "    <select class=\"file_upload_filter_select\" id=\"file_upload_filter_" + index + "_select\">View File</a>"
