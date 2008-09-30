@@ -1,0 +1,14 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<link href="/stylesheets/extensions/file_upload_filter/file_upload_filter.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="file_upload_filter_body"<%= @scripts %>>
+    <form method="post" action="/admin/file_upload_filter/upload" enctype="multipart/form-data" style="margin: 0;" id="file_upload_filter_form">
+       <%= hidden_field_tag("authenticity_token", form_authenticity_token) %>
+       <input name="index" type="hidden" />
+       <input class="file_upload_filter_file" id="file" name="file" type="file" />
+    </form>
+</body> 
+</html>

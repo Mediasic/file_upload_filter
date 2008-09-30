@@ -1,0 +1,13 @@
+.file_upload_filter_submit { margin-top: 10px; }
+
+.file_upload_filter_file_wrap { vertical-align: top; margin-top: 10px; }
+.file_upload_filter_iframe { vertical-align: top; border: 0; margin: 0; padding: 0; height: 32px; width: 230px; }
+.file_upload_filter_file_submit { vertical-align: top; margin-top: 2px; }
+
+.file_upload_filter_body { margin: 0; padding: 0; }
+.file_upload_filter_form { margin: 0; padding: 0; }
+.file_upload_filter_file { margin: 0; padding: 0; }
+
+.file_upload_filter_file_link { float: left; }
+.file_upload_filter_options { float: left; margin-left: 10px; }
+.file_upload_filter_clear { clear: both; }
