@@ -78,7 +78,7 @@ class Admin::FileUploadFilterController < ApplicationController
   def upload
     if request.post?
       file_data = params[:file]
-      url = "/images/file_upload_filter/#{Time.now.to_i.to_s}_#{rand(1000000)}_#{file_data.original_filename}"
+      url = "/files/file_upload_filter/#{Time.now.to_i.to_s}_#{rand(1000000)}_#{file_data.original_filename}"
       index = params[:index]
       out_path = "public#{url}"
 
